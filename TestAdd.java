@@ -6,6 +6,7 @@ public class TestAdd {
 	
 	@Test
 	void testAdd() {
+		System.out.println("test add");
 		assertEquals(1,TestAction.add(0,1));
 	}
 	
